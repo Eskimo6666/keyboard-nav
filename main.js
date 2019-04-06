@@ -8,18 +8,18 @@ var keys = {
     length:6
 }
 var hash = {
-    q:'qq.com',
+    q:'baidu.com',
     w:'weibo.com',
     e:'ele.me',
     r:'renren.com',
     t:'taobao.com',
     y:'youtube.com',
-    u:'uc.com',
+    u:'douyin.com',
     i:'iqiyi.com',
     o:'opera.com',
-    p:undefined,
+    p:'kuaishou.com',
     a:'alibaba.com',
-    s:'sohu.com',
+    s:'sogou.com',
 }
 var hashInLocalStorage = JSON.parse(localStorage.getItem('xxx') || 'null')
 if(hashInLocalStorage){
